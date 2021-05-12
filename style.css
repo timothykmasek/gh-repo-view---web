@@ -1,0 +1,124 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  background: #5E7FA3
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: rgb(229, 18, 40);
+/*  text-shadow: 1px 1px grey;*/
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(229, 18, 40);
+}
+
+.quote {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.container {
+    width: 600px;
+    margin: 30px auto;
+}
+
+.card {
+    background-color: #f4f2f2;
+    padding: 30px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.card-img {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  background-image: cover;
+  border: 1px solid lightgrey;
+}
+
+.cta {
+  font-size: 18px;
+  background-color: rgb(229, 18, 40);
+  color: white;
+  margin-top: 20px;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.cta:hover {
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  padding: 15px 20px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 30%);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+  font-size: 25px;
+  color: #5F7FA3;
+
+}
+
+.li {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  h1 {
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(229, 18, 40);
+  }
+  h3 {
+  font-size: 22px;
+  font-weight: 900;
+  color: rgb(229, 18, 40);
+  }
+  .card-img {
+  width: 200px;
+  height: 140px;
+  border-radius: 12px;
+  background-image: cover;
+  border: 1px solid lightgrey;
+  }
+}
